@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&family=Righteous&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato' ;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico' ;
+    font-size: 30px !important;
+    color: lightcoral !important;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: black !important;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover{
+    color: #00E8E8 !important;
+}
+
+.active .nav-link{
+    color: #00E8E8 !important;
+}
+
+.site-content{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.site-title, .site-desc{
+    color: white;
+    font-family: 'Righteous';
+}
+
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+
+.site-desc{
+    font-size: 14px;
+    padding-left: 10%;
+}
+
+.site-btn1{
+    margin-left: 20%;
+}
+.site-btn1, .site-btn2{
+    margin-top: 5%;
+}
+
+/* Section-1 Area */
+
+.section-1 .heading-1{
+    margin-top: 8%;
+}
+
+.section-1 .heading-2{
+    margin-bottom: 5%;
+    font-size: 39px;
+}
+
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.card{
+    width: 20rem;
+}
+
+.section-1 .card-text, .para-1{
+    color: rgba(0, 0, 0, 0.59);
+}
+
+.section-1{
+    margin-bottom: 8%;
+}
+
+/* Section-2 Area */
+
+.section-2 .container-fluid{
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section-2 .heading-1{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    width: 80%;
+    font-family: 'Righteous';
+    color: whitesmoke;
+}
+
+.section-2 .para{
+    width: 80%;
+    font-family: 'Ubuntu';
+    margin-bottom: 8%;
+    color: whitesmoke;
+}
+
+.section-2 .btn{
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%;
+}
+
+/* Section-3 Area */
+
+.section-3{
+    margin-top: 8%;
+}
+
+.section-3 i{
+    color: #00E8E8;
+}
+
+.section-3 p{
+    color: rgba(0, 0, 0, 0.59);
+}
+
+/* Section-4 Area */
+
+.section-4{
+    margin-top: 8%;
+    background-color: #808B96 ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.section-4 a{
+    text-decoration: none;
+    color: lightseagreen;
+    font-size: 40px;
+}
+
+.section-4 a:hover{
+    color: white;
+}
+
+.section-4 .para-2{
+    color: white;
+    font-family: 'Roboto Condensed';
+    margin-top: 8%;
+    font-size: 20px;
+}
+
+/* Footer Area */
+
+.help-btn{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.social{
+    color: #EF5651;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .section-1 .card{
+        width: 14rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .site-content .site-title{
+        font-size: 30px;
+        padding-left: 15%;
+    }
+
+    .site-desc{
+        padding-left: 15%;
+    }
+    
+    .site-content .site-btn2{
+        display: none;
+    }
+
+    .site-content .site-btn1{
+        margin-left: 15%;
+    }
+
+    .section-1 .heading-2{
+        font-size: 25px;
+    }
+
+    .section-1 .col-md-4{
+        padding: 5%;
+        margin-left: 15%;
+    }
+
+    .section-1 .card{
+        width: 15rem;
+    }
+
+    .section-3 .col-md-4{
+        padding: 5%;
+        margin-left: 0%;
+    }
+
+    .section-4{
+        padding: 5%;
+    }
+
+    .section-4 a{
+        font-size: 25px;
+    }
+
+    .help-btn{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
